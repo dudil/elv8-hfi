@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://netlify.com"
 languageCode = "en-us"
 title = "Elv8 Tech Blog"
 theme = "hugo-future-imperfect"
