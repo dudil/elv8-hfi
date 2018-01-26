@@ -19,21 +19,21 @@
               </div>
           </header>
             <div id="content">
-                {{ .Content }}
+                {{ .Content | markdownify }}
                 <div class="contact-container">
-                  <form name="subscribe" action="thank-you" netlify center width="300px">
+                  <form name="subscribe" action="{{ .Params.formAction }}" netlify center width="300px">
                   <h4>{{ .Params.subtitle }}</h4>
                   <fieldset>
-                   <input placeholder="{{ .Params.subcremail }}" type="email" name="email" tabindex="1" required autofocus>
+                   <input placeholder="{{ .Params.subscribeEmail }}" type="email" name="email" tabindex="1" required autofocus>
                   </fieldset>
                   <fieldset>
-                   <input placeholder="{{ .Params.subcrfname}}" type="text" name="first_name" tabindex="2" required>
+                   <input placeholder="{{ .Params.subscribeFirstName }}" type="text" name="first_name" tabindex="2" required>
                   </fieldset>
                   <fieldset>
-                   <input placeholder="{{ .Params.subcrlname}}" type="text" name="last_name" tabindex="3" required></textarea>
+                   <input placeholder="{{ .Params.susbscribeLastName }}" type="text" name="last_name" tabindex="3" required>
                   </fieldset>
                   <fieldset>
-                   <button name="subscribe" class="button" type="subscribe" id="contact-subscribe" tabindex="4">Subscribe</button>
+                   <button name="subscribe" class="button" type="subscribe" id="subscribe-submit" tabindex="4">Subscribe</button>
                   </fieldset>
               </form>
             </div>
