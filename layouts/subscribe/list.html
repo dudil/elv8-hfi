@@ -21,8 +21,11 @@
             <div id="content">
                 {{ .Content | markdownify }}
                 <div class="contact-container">
-                  <form name="subscribe" action="{{ .Params.formAction }}" netlify center width="300px">
+                  <form name="subscribe" netlify-honeypot="backdoor" action="{{ .Params.formAction }}" netlify center width="300px">
                   <h4>{{ .Params.subtitle }}</h4>
+                  <fieldset hidden=true>
+                    <input placholder="sp@c1l" type="text" name="backdoor">
+                   </fieldset>
                   <fieldset>
                    <input placeholder="{{ .Params.subscribeEmail }}" type="email" name="email" tabindex="1" required autofocus>
                   </fieldset>
