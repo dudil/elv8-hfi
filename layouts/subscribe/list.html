@@ -21,19 +21,19 @@
             <div id="content">
                 {{ .Content }}
                 <div class="contact-container">
-                  <form name="contact" action="thank-you" netlify center width="300px">
+                  <form name="subscribe" action="thank-you" netlify center width="300px">
                   <h4>{{ .Params.subtitle }}</h4>
                   <fieldset>
                    <input placeholder="{{ .Params.subcremail }}" type="email" name="email" tabindex="1" required autofocus>
                   </fieldset>
                   <fieldset>
-                   <input placeholder="{{ .Params.subcrfname}}" type="text" name="fname" tabindex="2" required>
+                   <input placeholder="{{ .Params.subcrfname}}" type="text" name="first_name" tabindex="2" required>
                   </fieldset>
                   <fieldset>
-                   <input placeholder="{{ .Params.subcrlname}}" type="text" name="lname" tabindex="3" required></textarea>
+                   <input placeholder="{{ .Params.subcrlname}}" type="text" name="last_name" tabindex="3" required></textarea>
                   </fieldset>
                   <fieldset>
-                   <button name="submit" class="button" type="submit" id="contact-submit" tabindex="4">Submit</button>
+                   <button name="subscribe" class="button" type="subscribe" id="contact-subscribe" tabindex="4">Subscribe</button>
                   </fieldset>
               </form>
             </div>
