@@ -95,11 +95,11 @@ pluralizeListTitles = false
   identifier = "fa fa-newspaper-o"
   weight = 3
 
-[[menu.main]]
-  name = "External Links"
-  url = "/external/"
-  identifier = "fa fa-link"
-  weight = 4
+# [[menu.main]]
+#  name = "External Links"
+#  url = "/external/"
+#  identifier = "fa fa-link"
+#  weight = 4
 
 [[menu.main]]
   name = "Tags"
