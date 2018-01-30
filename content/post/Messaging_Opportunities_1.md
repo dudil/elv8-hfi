@@ -1,9 +1,10 @@
 ---
 date: 2017-09-14
+description: "How to extend your community page and boost your game communities using the Messenger platform API"
 image: "/images/post/Messaging_Opportunities_1/1*Kbi4dSS0tufV-Lvb_0gRhQ.png"
 tags: ["Bots", "Gaming", "eSport", "Game Development", "Facebook Messenger"]
 title: "Messaging Platform Opportunities for Game Developers"
-description: "How to extend your community page and boost your game communities using the Messenger platform API"
+category: ["Product"]
 ---
 
 ### Intro
