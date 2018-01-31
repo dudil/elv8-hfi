@@ -30,7 +30,7 @@ For eSport titles and Clan/Guild based games, strong* *communities are the corne
 
 As seen on the list, there are plenty of different options for players to create, build and grow game communities. Still, for game developers, the main platform to create communities is the **in-game** communication.
 
-### In-Game Communication
+## In-Game Communication
 
 In-game communication is the way players interact with each other inside games. In-game communication is a vital part of any multiplayer game. You will find out that beginners and occasional players will tend to use and rely solely on your in-game platform. This is usually how communities are built; people play and communicate with each other inside the game.
 
@@ -54,7 +54,7 @@ However, it is rare to see game developers building in-game communication as the
 
 Development and maintenance of such features in-game are complex with low ROI in compare to alternative features. Therefore, it makes sense most game developers choose to have only the basic features of in-game communication
 
-### Community-Used External Platforms
+## Community-Used External Platforms
 
 As the game grows in popularity and as guilds play a major part in your game, players tend to look for and use external tools to communicate and interact.
 
@@ -66,7 +66,7 @@ While this growth is great for any game, developers should mind a few downsides:
 
 1. Lack of means to reach out to new players and new audiences
 
-### Facebook Community Page
+## Facebook Community Page
 
 The Facebook community page is mandatory for any game looking to advertise and grow using the FB platform. Most game developers already use the community page to interact with their players in term of support, events, sales, and special announcements.
 
@@ -76,7 +76,7 @@ In terms of analytical data, you have a full view of players interaction and eng
 
 You can also combine players analytics inside and outside the game ecosystem if the game makes use of the Facebook login API.
 
-### Create a Smart Community Page with Facebook Messenger Platform
+## Create a Smart Community Page with Facebook Messenger Platform
 
 ![](/images/post/Messaging_Opportunities_1/1*SvZBwwxdYxrLgavikXEkcA.jpg)
 
@@ -114,7 +114,7 @@ In few short few steps, you will be able to set up a simple bot to interact with
 
 ![](/images/post/Messaging_Opportunities_1/1*AhNuxvINYO1gPg4wjqrIbA.png)
 
-### Before we Start — Recommended Architecture
+## Before we Start — Recommended Architecture
 
 I highly recommend you externalize your game APIs. This will allow you to decouple the API integration from your game infrastructure.
 
@@ -124,14 +124,14 @@ Micro-services design helps you with rapid development and test of implementatio
 
 ![](/images/post/Messaging_Opportunities_1//1*R9lnOvTtRPDsDWn5JzhfGQ.jpg)
 
-### First Step — setup your Messenger app
+## First Step — setup your Messenger app
 
 At first, you will need to create a new Messenger app that will connect to your FB community page. Following this step, you get an authentication token which you can further use to call and listen to other APIs.
 
 This [official guide](https://developers.facebook.com/docs/messenger-platform/guides/quick-start) describes the steps required to create a node.js bot.
 If you are more a Python guy (like me), [this excellent guide](https://github.com/jeanmidevacc/messenger-bot-python-flask-zappa-amazon) will instruct you how to set up a Serverless bot on AWS Lambda using the [Zappa](https://www.zappa.io/) framework in less than 20 minutes!
 
-### Receive and Send Messages to Your Players — The Messages API
+## Receive and Send Messages to Your Players — The Messages API
 
 [https://developers.facebook.com/docs/messenger-platform/Webhook](https://developers.facebook.com/docs/messenger-platform/webhook)
 
@@ -162,7 +162,7 @@ Using the user profile API, you will be able to retrieve basic information about
 
 * With Facebook login, you have a full view of players activity. Also, when players are communicating about the game outside the game.
 
-### Visual interaction in group messaging — Chat Extensions
+## Visual interaction in group messaging — Chat Extensions
 [**Chat Extensions (NEW!) - Messenger Platform - Documentation - Facebook for Developers**](https://developers.facebook.com/docs/messenger-platform/guides/chat-extensions)
 
 Chat Extensions is a new feature for the messaging platform just announced on [the last F8 conference](https://chatbotsmagazine.com/live-from-f8-group-bots-with-messenger-chat-extensions-641a3d66b367). Chat Extensions lets bots provide interactive, social features that users can invoke directly into their conversations.
@@ -198,7 +198,7 @@ Furthermore, you get the profiles of users interacting with your Chat Extension 
 
 Having this users’ profiles makes it easier for you to interact with them on the FB platform and gain extend analytic about the true outside game activity of your players.
 
-### Get Data Relevant for Chat Activity — Analytics & Messaging Insights API
+## Get Data Relevant for Chat Activity — Analytics & Messaging Insights API
 [**Analytics - Messenger Platform - Documentation - Facebook for Developers**](https://developers.facebook.com/docs/messenger-platform/product-overview/analytics)
 
 Having a complete game analytics is a key factor for any successful game. You use analytics to better understand players journey inside your game. To recognize the most likable and played features and note the ones in need for an improvement. Same goes with out-of-game analytics: you can track your advertisement spent and performance and your community activity.
@@ -215,7 +215,7 @@ Questions like:
 
 * What information are they looking for in the page/bot?
 
-### Advanced — Sell game merchandise using the Payments API
+## Advanced — Sell game merchandise using the Payments API
 [**Payments (Beta) - Messenger Platform - Documentation - Facebook for Developers**](https://developers.facebook.com/docs/messenger-platform/payments)
 
 Selling your own game merchandise such as tee-shirts and action figures is a peachy way to engage players, and monetize further your game IP.
@@ -224,7 +224,7 @@ Using the Messenger platform payments API, directly selling these items to your 
 
 There are few options in which you can implement an in-chat store. I recommend reading this [guide](https://developers.facebook.com/docs/messenger-platform/payments) to understand the different ways in terms of availability and prerequisites.
 
-### Advanced — Humanize your bot interaction using Messenger built-in NLP
+## Advanced — Humanize your bot interaction using Messenger built-in NLP
 [**Built-in NLP - Messenger Platform - Documentation - Facebook for Developers**](https://developers.facebook.com/docs/messenger-platform/built-in-nlp)
 
 NLP (Stands for *Natural Language Processing*) allows your bot to “understand” complex sentences and to respond accordingly. While this feature is still in its basic, it holds a great promise to make chatting with bots more human and natural for your players.
@@ -233,7 +233,7 @@ At the moment, the Messenger platform built-in NLP detects Greetings, Thanks and
 
 I suggest starting experiment with NLP so you can understand how it works and how to code it. Once you feel more comfortable using NLP, you can move to use external NLP services like [Wit.ai](https://wit.ai/) or [Api.ai](https://api.ai/)
 
-### Advanced — Create your own HTML5 game for the messenger platform (Closed Beta)
+## Advanced — Create your own HTML5 game for the messenger platform (Closed Beta)
 [**Instant Games Now Available on Messenger and Facebook News Feed - Facebook for Developers**](https://developers.facebook.com/blog/post/2016/11/30/instant-games-closed-beta/)
 
 If you wish to leverage the Messenger platform reach and instant collaboration nature, consider developing an extension or even a new game that runs directly on the Messenger platform.
