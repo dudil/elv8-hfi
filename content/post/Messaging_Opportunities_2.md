@@ -7,8 +7,6 @@ tags: ["Bots", "Gaming", "eSport", "Game Development", "Facebook Messenger"]
 categories:  ["Technology"]
 ---
 
-## Intro
-
 On my previous post, [Messaging Platform Opportunities for Game Developers](/post/messaging_opportunities_1/) I went through *why* players communication is essential for your game, *what* solutions exist today and *how* to use the Facebook Messenger platform to deliver a great extension of your game to your players.
 
 While the Facebook Messenger is great and easy to implement solution, it has one major disadvantage (as for the moment). You can have your game extended ***on the Messenger platform*** but you can’t have the Messenger platform ***integrated into your game***.
