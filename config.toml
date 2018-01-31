@@ -43,9 +43,15 @@ pluralizeListTitles = false
   
   # Sets Social Share links to appear on posts
   socialShare          = true
-
-
-
+  # Sets specific share to appear on posts (default behavior is to appear)
+  socialShareTwitter   = true
+  socialShareGoogleplus = false
+  socialShareFacebook  = true
+  socialShareReddit    = true
+  socialShareLinkedin  = true
+  socialShareStumbleupon = false
+  socialSharePinterest = false
+  socialShareEmail     = true
 
   # Load custom CSS or JavaScript files. The variable is an array so that you
   # can load multiple files if necessary. You can also load the standard theme
@@ -77,16 +83,6 @@ pluralizeListTitles = false
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
     sidebar = 5
-
-[params.socialShareEnable]
-    twitter = true
-    googleplus = false
-    facebook = true
-    reddit = true
-    linkedin = true
-    stumbleupon = false
-    pinterest = false
-    email = true
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
