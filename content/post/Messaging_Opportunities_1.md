@@ -1,12 +1,11 @@
 ---
-date: 2017-09-14
+title: "Messaging Platform Opportunities for Game Developers"
 description: "How to extend your community page and boost your game communities using the Messenger platform API"
+date: 2017-09-14
 image: "/images/post/Messaging_Opportunities_1/1*Kbi4dSS0tufV-Lvb_0gRhQ.png"
 tags: ["Bots", "Gaming", "eSport", "Game Development", "Facebook Messenger"]
-title: "Messaging Platform Opportunities for Game Developers"
 category: ["Product"]
 ---
-### Intro
 
 Most successful games hold communities of people who enjoy playing them. Communities could be about anything: playing together, sharing achievements and experiences, live streaming of the game or holding special cosplay parties. The fact is that we, as human beings, enjoy sharing our gaming interest with fellow players.
 
