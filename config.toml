@@ -40,8 +40,13 @@ pluralizeListTitles = false
   # https://github.com/audreyr/favicon-cheat-sheet
   loadFavicon          = false
   faviconVersion       = ""
+  
   # Sets Social Share links to appear on posts
   socialShare          = true
+
+
+
+
   # Load custom CSS or JavaScript files. The variable is an array so that you
   # can load multiple files if necessary. You can also load the standard theme
   # files by adding the value, "default".
@@ -55,9 +60,7 @@ pluralizeListTitles = false
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
   header    = "Elv8 Tech Blog"
-
   paragraph = "My Blog about Technology, Management and Product"
-
   about     = "My name is Dudi Levy, I am Technology executive leading people, products and technology.</br>Elv8 is my personal blog about this subjects and behind."
 
   # This appears at the top of the sidebar above params.intro.header.
@@ -74,6 +77,16 @@ pluralizeListTitles = false
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
     sidebar = 5
+
+[params.socialShareEnable]
+    twitter = true
+    googleplus = false
+    facebook = true
+    reddit = true
+    linkedin = true
+    stumbleupon = false
+    pinterest = false
+    email = true
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
