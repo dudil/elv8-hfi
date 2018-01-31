@@ -5,7 +5,7 @@ date: 2018-01-31
 
 ---
 
-## Intro
+
 
 n my previous post, [Messaging Platform Opportunities for Game Developers](/post/messaging_opportunities_1/) I went through *why* players communication is essential for your game, *what* solutions exist today and *how* to use the Facebook Messenger platform to deliver a great extension of your game to your players.
 
@@ -17,7 +17,7 @@ In this post, I will introduce you to the Discord app and to Discord GameBridge.
 
 ![](/images/post/Messaging_Opportunities_2/1*K6LxEi2m-_nyVGFUlK-4tA.png)
 
-## About Discord
+## Intro
 
 [Discord](https://discordapp.com) is a communication platform very much similar to Slack and Workplace by Facebook. While the later ones are aimed at changing the way organizations are working, Discord main focus is players communication.
 
