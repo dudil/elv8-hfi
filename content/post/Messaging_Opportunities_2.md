@@ -1,10 +1,12 @@
 ---
+title: "Messaging Platform for Game Developers — Part 2"
+description: "Discord — The Rising Star of Players Communication"
 date: 2017-10-20
 image: "/images/post/Messaging_Opportunities_2/1*S9CzrBzmvETEy44egVY4IQ.png"
 tags: ["Bots", "Gaming", "eSport", "Game Development", "Facebook Messenger"]
-title: "Messaging Platform for Game Developers — Part 2"
-description: "Discord — The Rising Star of Players Communication"
+categories:  ["Technology"]
 ---
+
 ## Intro
 
 On my previous post, [Messaging Platform Opportunities for Game Developers](/post/messaging_opportunities_1/) I went through *why* players communication is essential for your game, *what* solutions exist today and *how* to use the Facebook Messenger platform to deliver a great extension of your game to your players.
