@@ -6,7 +6,6 @@ tags: ["Bots", "Gaming", "eSport", "Game Development", "Facebook Messenger"]
 title: "Messaging Platform Opportunities for Game Developers"
 category: ["Product"]
 ---
-
 ### Intro
 
 Most successful games hold communities of people who enjoy playing them. Communities could be about anything: playing together, sharing achievements and experiences, live streaming of the game or holding special cosplay parties. The fact is that we, as human beings, enjoy sharing our gaming interest with fellow players.

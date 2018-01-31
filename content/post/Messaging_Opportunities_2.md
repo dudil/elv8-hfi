@@ -5,8 +5,7 @@ tags: ["Bots", "Gaming", "eSport", "Game Development", "Facebook Messenger"]
 title: "Messaging Platform for Game Developers — Part 2"
 description: "Discord — The Rising Star of Players Communication"
 ---
-
-### Intro
+## Intro
 
 On my previous post, [Messaging Platform Opportunities for Game Developers](/post/messaging_opportunities_1/) I went through *why* players communication is essential for your game, *what* solutions exist today and *how* to use the Facebook Messenger platform to deliver a great extension of your game to your players.
 
@@ -18,7 +17,7 @@ In this post, I will introduce you to the Discord app and to Discord GameBridge.
 
 ![](/images/post/Messaging_Opportunities_2/1*K6LxEi2m-_nyVGFUlK-4tA.png)
 
-### About Discord
+## About Discord
 
 [Discord](https://discordapp.com) is a communication platform very much similar to Slack and Workplace by Facebook. While the later ones are aimed at changing the way organizations are working, Discord main focus is players communication.
 
@@ -50,7 +49,7 @@ Discord is in use for everything from setting up and recruiting esport teams to 
 
 *Consider that if you are developing games and looking for a team communication platform which is free and has decent feature set (Yep they have Github bots)*
 
-### Discord for Game Developers
+## Discord for Game Developers
 
 Discord is unique in my view compared to the other platforms.
 
@@ -60,7 +59,7 @@ For the game developers, this is great opportunity to provide extensive environm
 
 Furthermore, with GameBridge Discord allows you to extend your in-game communication with their own feature sets. This is a fresh change that allows you to use external platform to extend **your game** rather your game **extend the platform**
 
-### Discord Apps
+## Discord Apps
 
 To start working with Discord I suggest creating an app that will extend your game communities on the Discord platform.
 
@@ -76,7 +75,7 @@ I strongly advise you will not connect directly from your game platform into the
 
 1. Expose to DIY coders which are part of your players community
 
-### Discord GameBridge
+## Discord GameBridge
 
 GameBridge (Still in Beta) is a great opportunity for game developers to enhance in-game communication in their game using Discord.
 
@@ -99,7 +98,7 @@ If you are in the space of Desktop multiplayer games, it is good starting point 
 
 If you just want to experiment, you should probably start with the RPC version as it is less intrusive for your game and easier to turn off where needed. Just note that the RPC will only work with players already have the Discord client installed on their Desktop.
 
-### Notable Disadvantages
+## Notable Disadvantages
 
 Since Discord is all about the players, it has some considerable disadvantages comparing to other platforms (e.g. Facebook Messenger)
 
