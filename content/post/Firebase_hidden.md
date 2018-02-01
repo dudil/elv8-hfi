@@ -1,11 +1,13 @@
 ---
 date: 2017-06-17
 description: "Meet Firebase Remote Config"
-image: "/images/post/Firebase_hidden/1*RzxiNv3cFuyTzCiUj5Bgng.png"
+featured: "1*RzxiNv3cFuyTzCiUj5Bgng.png"
+featuredpath: "/images/post/Firebase_hidden/"
+featuredalt: "Firebase Logo"
 tags: ["firebase", "product management"]
 title: "Firebase Hidden Gem for Product Managers"
+type: "post"
 ---
-![](/images/post/Firebase_hidden/1*RzxiNv3cFuyTzCiUj5Bgng.png)
 
 I’ve been playing around with Google Firebase lately and to my surprise had found a real gem for product managers, but first —
 

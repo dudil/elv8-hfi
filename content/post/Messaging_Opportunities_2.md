@@ -2,7 +2,9 @@
 title: "Messaging Platform for Game Developers — Part 2"
 description: "Discord — The Rising Star of Players Communication"
 date: 2017-10-20
-image: "/images/post/Messaging_Opportunities_2/1*S9CzrBzmvETEy44egVY4IQ.png"
+featured: "1*S9CzrBzmvETEy44egVY4IQ.png"
+featuredpath: "/images/post/Messaging_Opportunities_2/"
+featuredalt: ""
 tags: ["Bots", "Gaming", "eSport", "Game Development", "Facebook Messenger"]
 categories:  ["Product"]
 ---

@@ -2,7 +2,10 @@
 title: "Amazon Product Advertising API"
 description: "What is It Good For? How to Use It? And Why It Could Put You at High Risk?"
 date: 2017-08-08
-image: "/images/post/Amazon_product_advertising_api/1*ss6S2jY2t8L87ME9TzSukA.jpg"
+image: ""
+featured: "1*ss6S2jY2t8L87ME9TzSukA.jpg"
+featuredpath: "/images/post/Amazon_product_advertising_api/"
+featuredalt: ""
 tags: ["aws"]
 categories:  ["Technology"]
 

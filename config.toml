@@ -40,6 +40,10 @@ pluralizeListTitles = false
   # https://github.com/audreyr/favicon-cheat-sheet
   loadFavicon          = false
   faviconVersion       = ""
+
+  # Default author name
+  author = "Dudi Levy"
+  authorPage = "/about/"
   
   # Sets Social Share links to appear on posts
   socialShare          = true
