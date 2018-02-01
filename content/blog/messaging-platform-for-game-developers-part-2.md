@@ -1,15 +1,16 @@
 ---
-title: "Messaging Platform for Game Developers — Part 2"
+title: "Messaging Platform for Game Developers Part 2"
 description: "Discord — The Rising Star of Players Communication"
 date: 2017-10-20
 featured: "1*S9CzrBzmvETEy44egVY4IQ.png"
-featuredpath: "/images/post/Messaging_Opportunities_2/"
+featuredpath: "/images/blog/messaging-platform-for-game-developers-part-2/"
 featuredalt: ""
 tags: ["Bots", "Gaming", "eSport", "Game Development", "Facebook Messenger"]
 categories:  ["Product"]
+type: "post"
 ---
 
-On my previous post, [Messaging Platform Opportunities for Game Developers](/post/messaging_opportunities_1/) I went through *why* players communication is essential for your game, *what* solutions exist today and *how* to use the Facebook Messenger platform to deliver a great extension of your game to your players.
+On my previous post, [Messaging Platform Opportunities for Game Developers](/blog/messaging-platform-opportunities-for-game-developers/) I went through *why* players communication is essential for your game, *what* solutions exist today and *how* to use the Facebook Messenger platform to deliver a great extension of your game to your players.
 
 While the Facebook Messenger is great and easy to implement solution, it has one major disadvantage (as for the moment). You can have your game extended ***on the Messenger platform*** but you can’t have the Messenger platform ***integrated into your game***.
 
@@ -17,7 +18,7 @@ So while your players can enjoy this truly amazing platform to communicate and s
 
 In this post, I will introduce you to the Discord app and to Discord GameBridge. A potential game-changer for game developers that you should definitely start looking at.
 
-![](/images/post/Messaging_Opportunities_2/1*K6LxEi2m-_nyVGFUlK-4tA.png)
+![](/images/blog/messaging-platform-for-game-developers-part-2/1*K6LxEi2m-_nyVGFUlK-4tA.png)
 
 ## About Discord
 
@@ -39,11 +40,11 @@ The Discord app is completely multi-platform. There are iOS / Android / Web / PC
 
 On the platform itself, you are able to post, chat, use voice chat rooms and even video chat groups that are rolling at the moment. If you look at the comparison page provided on the platform, you will notice Discord is all about low performance impact communication.
 
-![](/images/post/Messaging_Opportunities_2/1*K2szRuMmXZrBEbNubWyVfw.png)
+![](/images/blog/messaging-platform-for-game-developers-part-2/1*K2szRuMmXZrBEbNubWyVfw.png)
 
 This is no accident. Knowing well their audience, The team at Discord understand there is nothing more frustrating than lagging and slow performance because of some extension you just added to the game.
 
-![](/images/post/Messaging_Opportunities_2/1*bvyclvD4FW5IfvGnWq6phA.png)
+![](/images/blog/messaging-platform-for-game-developers-part-2/1*bvyclvD4FW5IfvGnWq6phA.png)
 
 Read [here](https://discordapp.com/features) for the complete features list. You will find it complete, high graded and in some case (IMHO) a good alternative to Slack and Workspace.
 
@@ -67,9 +68,9 @@ To start working with Discord I suggest creating an app that will extend your ga
 
 Go [here](https://discordapp.com/developers/docs/reference) for the complete API reference. There are also some good wrappers for your choice of programming platform, for example this python library.
 
-While I won’t cover the API list, I would advice again (as did in [part 1](/post/messaging_opportunities_1/)) about the recommended architecture and deployment.
+While I won’t cover the API list, I would advice again (as did in [part 1](/blog/messaging-platform-opportunities-for-game-developers/)) about the recommended architecture and deployment.
 
-![](/images/post/Messaging_Opportunities_2/1*oLH4fXIP3lLLK30hipAAsg.png)
+![](/images/blog/messaging-platform-for-game-developers-part-2/1*oLH4fXIP3lLLK30hipAAsg.png)
 
 I strongly advise you will not connect directly from your game platform into the Discord platform. Instead, create a set of APIs that by exposing to Micro-services will allow you to:
 
@@ -83,7 +84,7 @@ GameBridge (Still in Beta) is a great opportunity for game developers to enhance
 
 Remembering that Discord is focusing on user experience and low latency is a good guarantee that your game is not highly affected by this integration.
 
-![](/images/post/Messaging_Opportunities_2/1*irvm2qlX7tQ-8nFNzqgGIw.png)
+![](/images/blog/messaging-platform-for-game-developers-part-2/1*irvm2qlX7tQ-8nFNzqgGIw.png)
 
 Read [here](https://discordapp.com/gamebridge) more about it.
 
@@ -116,7 +117,7 @@ Since Discord is all about the players, it has some considerable disadvantages c
 
 1. You don’t have any analytics about usage, flow etc. Of course, you can always use your own internal solution, but that will make integration more complex.
 
-![](/images/post/Messaging_Opportunities_2/1*N9ic-IeGu2YXpXSGqix36A.png)
+![](/images/blog/messaging-platform-for-game-developers-part-2/1*N9ic-IeGu2YXpXSGqix36A.png)
 
 ## Ok I Got your point…
 
@@ -130,7 +131,7 @@ Are you aiming to esport or hardcore desktop gamers? Discord is the answer for y
 
 In between? not sure? well…
 
-![](/images/post/Messaging_Opportunities_2/1*2swN-wPdQQPKZEhI2NohkA.png)
+![](/images/blog/messaging-platform-for-game-developers-part-2/1*2swN-wPdQQPKZEhI2NohkA.png)
 
 Keep an eye over Discord — it is evolving fast and here to change the game.
 

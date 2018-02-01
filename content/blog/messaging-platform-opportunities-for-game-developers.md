@@ -4,10 +4,11 @@ description: "How to extend your community page and boost your game communities 
 date: 2017-09-14
 image: ""
 featured: "1*Kbi4dSS0tufV-Lvb_0gRhQ.png"
-featuredpath: "/images/post/Messaging_Opportunities_1/"
+featuredpath: "/images/blog/messaging-platform-opportunities-for-game-developers/"
 featuredalt: ""
 tags: ["Bots", "Gaming", "eSport", "Game Development", "Facebook Messenger"]
 category: ["Product"]
+type: "post"
 ---
 
 Most successful games hold communities of people who enjoy playing them. Communities could be about anything: playing together, sharing achievements and experiences, live streaming of the game or holding special cosplay parties. The fact is that we, as human beings, enjoy sharing our gaming interest with fellow players.
@@ -25,11 +26,11 @@ This result with higher LTV and better retention
 
 For eSport titles and Clan/Guild based games, strong* *communities are the cornerstone of their game, as they provide the most vital element of it.
 
-![](/images/post/Messaging_Opportunities_1/1*RkRMgoP6QtK5h6vBo4g_MA.jpg)
+![](/images/blog/messaging-platform-opportunities-for-game-developers/1*RkRMgoP6QtK5h6vBo4g_MA.jpg)
 
 ### What tools are used to create and build communities?
 
-![There are more](/images/post/Messaging_Opportunities_1/1*cNfY8upK34nkvjFuBigg6A.png)*There are more*
+![There are more](/images/blog/messaging-platform-opportunities-for-game-developers/1*cNfY8upK34nkvjFuBigg6A.png)*There are more*
 
 As seen on the list, there are plenty of different options for players to create, build and grow game communities. Still, for game developers, the main platform to create communities is the **in-game** communication.
 
@@ -37,7 +38,7 @@ As seen on the list, there are plenty of different options for players to create
 
 In-game communication is the way players interact with each other inside games. In-game communication is a vital part of any multiplayer game. You will find out that beginners and occasional players will tend to use and rely solely on your in-game platform. This is usually how communities are built; people play and communicate with each other inside the game.
 
-![Try to track that message from last week](/images/post/Messaging_Opportunities_1/1*byY9xtfDdk43F8PjE6CmEg.png)*Try to track that message from last week*
+![Try to track that message from last week](/images/blog/messaging-platform-opportunities-for-game-developers/1*byY9xtfDdk43F8PjE6CmEg.png)*Try to track that message from last week*
 
 However, it is rare to see game developers building in-game communication as the top in class messaging platforms. For the same rich set of features, in-game communication platforms need to support:
 
@@ -53,7 +54,7 @@ However, it is rare to see game developers building in-game communication as the
 
 * Security and Chat Policy active enforcement
 
-![I hope he got my message right](/images/post/Messaging_Opportunities_1/1*oiJ1ecQ8LKojQ34lN325gQ.png)*I hope he got my message right*
+![I hope he got my message right](/images/blog/messaging-platform-opportunities-for-game-developers/1*oiJ1ecQ8LKojQ34lN325gQ.png)*I hope he got my message right*
 
 Development and maintenance of such features in-game are complex with low ROI in compare to alternative features. Therefore, it makes sense most game developers choose to have only the basic features of in-game communication
 
@@ -81,7 +82,7 @@ You can also combine players analytics inside and outside the game ecosystem if 
 
 ## Create a Smart Community Page with Facebook Messenger Platform
 
-![](/images/post/Messaging_Opportunities_1/1*SvZBwwxdYxrLgavikXEkcA.jpg)
+![](/images/blog/messaging-platform-opportunities-for-game-developers/1*SvZBwwxdYxrLgavikXEkcA.jpg)
 
 For game developers, the Messenger platform is an amazing opportunity to enhance the Facebook community page.
 
@@ -115,7 +116,7 @@ The Messenger platform API is based on your FB community page. This allows you t
 
 In few short few steps, you will be able to set up a simple bot to interact with your players. Following more APIs integration, you will be able to harness the full potential of the Messenger platform!
 
-![](/images/post/Messaging_Opportunities_1/1*AhNuxvINYO1gPg4wjqrIbA.png)
+![](/images/blog/messaging-platform-opportunities-for-game-developers/1*AhNuxvINYO1gPg4wjqrIbA.png)
 
 ## Before we Start — Recommended Architecture
 
@@ -125,7 +126,7 @@ The basic architecture of using the Messenger platform involves setting up Web-h
 
 Micro-services design helps you with rapid development and test of implementation. It allows you to add new features and update existing ones quickly without breaking other components. It also allows you to use Serverless architecture and platforms. Using [Serverless](https://martinfowler.com/articles/serverless.html) platforms, you can scale up automatically and cost-effectively without the need to set up a dedicated or new production environment.
 
-![](/images/post/Messaging_Opportunities_1//1*R9lnOvTtRPDsDWn5JzhfGQ.jpg)
+![](/images/blog/messaging-platform-opportunities-for-game-developers//1*R9lnOvTtRPDsDWn5JzhfGQ.jpg)
 
 ## First Step — setup your Messenger app
 
@@ -140,7 +141,7 @@ If you are more a Python guy (like me), [this excellent guide](https://github.co
 
 The most straightforward action you are going to perform is automating your chat with your page players, AKA creating a chat bot. Creating chat bot will allow your bot to communicate freely with players. And this should be the first goal of implementing a community bot
 
-![](/images/post/Messaging_Opportunities_1/1*OMmJBDc_K8hJam60BociVg.png)
+![](/images/blog/messaging-platform-opportunities-for-game-developers/1*OMmJBDc_K8hJam60BociVg.png)
 
 Some implementation ideas:
 
@@ -243,7 +244,7 @@ If you wish to leverage the Messenger platform reach and instant collaboration n
 
 Games running on the Messenger platform are social and instant by nature. They let players interact and play together. There are some great examples like Zynga’s “Word with Friends”.
 
-![I’m loosing…](/images/post/Messaging_Opportunities_1/1*nTwlnhzvUzGVrMoXXm50Hw.png)*I’m loosing…*
+![I’m loosing…](/images/blog/messaging-platform-opportunities-for-game-developers/1*nTwlnhzvUzGVrMoXXm50Hw.png)*I’m loosing…*
 
 To be able to publish your game on the Messenger platform you first need to create an *instant game*, which is currently a closed beta.
 

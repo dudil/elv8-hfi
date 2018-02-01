@@ -2,7 +2,7 @@
 date: 2017-06-17
 description: "Meet Firebase Remote Config"
 featured: "1*RzxiNv3cFuyTzCiUj5Bgng.png"
-featuredpath: "/images/post/Firebase_hidden/"
+featuredpath: "/images/blog/meet-firebase-remote-config/"
 featuredalt: "Firebase Logo"
 tags: ["firebase", "product management"]
 title: "Firebase Hidden Gem for Product Managers"
@@ -37,7 +37,7 @@ Should it be after 1 minute of use? maybe 5? maybe 60?
 
 So, in Firebase, all you need to do is to add a new parameter to dashboard called *timeTillAd:*
 
-![](/images/post/Firebase_hidden/1*560D0DUeeBM5NT8jXCS7Fw.png)
+![](/images/blog/meet-firebase-remote-config/1*560D0DUeeBM5NT8jXCS7Fw.png)
 
 The developer should take this parameter and implement its logic in the code. You should note that the API includes a default value in cases where the fetching of the value failed (like when there is no internet connection).
 
@@ -45,7 +45,7 @@ Once the app is live you can change this value, publish and immediately all apps
 
 BTW — had you notice the *Add value for condition* link on the top right corner? This is the A\B testing included for free. Let’s give a better look inside:
 
-![](/images/post/Firebase_hidden/1*L6rSLO3XY8SdnkKMQt12NA.png)
+![](/images/blog/meet-firebase-remote-config/1*L6rSLO3XY8SdnkKMQt12NA.png)
 
 So, as you can see, you can provide a different value for a different app version or operation system (android green and iOS blue? why not!)
 You can perform the traditional A\B testing through the “user in random percentile” and also provide a different value for different geo-location.

@@ -4,11 +4,11 @@ description: "What is It Good For? How to Use It? And Why It Could Put You at Hi
 date: 2017-08-08
 image: ""
 featured: "1*ss6S2jY2t8L87ME9TzSukA.jpg"
-featuredpath: "/images/post/Amazon_product_advertising_api/"
+featuredpath: "/images/blog/amazon-product-advertising-api/"
 featuredalt: ""
 tags: ["aws"]
 categories:  ["Technology"]
-
+type: "post"
 ---
 ## TL;DR
 
@@ -20,14 +20,14 @@ If you will follow the exact procedure created by Amazon and will fail to put at
 In the following article, I will explain about the Amazon Product API and why you have to use these keys for the first place. 
 Then I will explain what is the risk with root access keys and how to avoid this mistake.
 
-## What is the amazon Product API?
+## What is the amazon Product API
 
-![Amazon really nailed it this time with this logo!](/images/post/Amazon_product_advertising_api/1*9G0i8xqjixaV3AORRC1H_g.png)*Amazon realy nailed it this time with this logo!*
+![Amazon really nailed it this time with this logo!](/images/blog/amazon-product-advertising-api/1*9G0i8xqjixaV3AORRC1H_g.png)*Amazon realy nailed it this time with this logo!*
 
 The Amazon product API is a tool for Amazon affiliates to search, show, share and finally direct traffic into specific products inside Amazon.
 It is intended to use programmatically to allow affiliated websites \ apps to interact programmatically with the Amazon megastore.
 
-![Note to self — switch to power saving led light bulb](/images/post/Amazon_product_advertising_api/1*aOK-fnQMxZezhqOQb3c7sQ.jpg)*Note to self — switch to power saving led light bulb*
+![Note to self — switch to power saving led light bulb](/images/blog/amazon-product-advertising-api/1*aOK-fnQMxZezhqOQb3c7sQ.jpg)*Note to self — switch to power saving led light bulb*
 
 let me set up a simple example to demonstrate that:
 You operate a website named *LetThereBLight.com* a website dedicated to the wonders of light bulbs.
@@ -77,7 +77,7 @@ This is the analysis of the call above:
 
 The result you will get (rendered) should be something like this
 
-![They are pricy — but will give you nice atmosphere](/images/post/Amazon_product_advertising_api/1*KWK2KmAg-3yviwCmhYpMwg.png)*They are pricy — but will give you nice atmosphere*
+![They are pricy — but will give you nice atmosphere](/images/blog/amazon-product-advertising-api/1*KWK2KmAg-3yviwCmhYpMwg.png)*They are pricy — but will give you nice atmosphere*
 
 Amazing — isn’t that? showing this links in the bottom of the users’ reviews will allow readers to quickly find the item they just read about. And for you to get extra money from any purchase they might do on Amazon.
 
@@ -117,7 +117,7 @@ To authenticate the call Amazon is doing the same signing process as you did. If
 
 Only the caller (you) and Amazon knows the secret key. That means that only the caller and Amazon are able to generate a valid Signature element. Making sure no one is duplicating your calls or replacing \ injecting elements along the way.
 
-![Well -this is not how secret keys looks like but I guess you got the idea](/images/post/Amazon_product_advertising_api/1*6172uzutRSQ9Kq5LtGWiNw.jpg)*Well -this is not how secret keys looks like but I guess you got the idea*
+![Well -this is not how secret keys looks like but I guess you got the idea](/images/blog/amazon-product-advertising-api/1*6172uzutRSQ9Kq5LtGWiNw.jpg)*Well -this is not how secret keys looks like but I guess you got the idea*
 
 Unfortunately, the signing process is not so simple task to implement. It has much more very specific details not described above. needles to say, any detail you miss or putting wrong will result in a wrong hash code.
 
@@ -133,7 +133,7 @@ I am providing here the exact walkthrough from amazon docs, including my comment
 * This is the case when **you don’t **have an aws account.
 Amazon authentication is same for **all services**. That means you can login to the aws platform with the same credentials you are using to buy kitten litter box. That also means you probably signed with the same credentials to the product advertising API as you signed to the aws account.
 
-![Kitten not included](/images/post/Amazon_product_advertising_api/1*ss6S2jY2t8L87ME9TzSukA.jpg)*Kitten not included*
+![Kitten not included](/images/blog/amazon-product-advertising-api/1*ss6S2jY2t8L87ME9TzSukA.jpg)*Kitten not included*
 
 > **To manage your AWS root credentials**
 
@@ -168,7 +168,7 @@ Never ever use root credentials!**
 > 4. Follow this procedure instead (from step 7). Yes, it has a confusing, not related title. Yes, it is just a bunch of information we didn’t find a place for, but still, it is the right one:
 [Becoming a Product Advertising API Developer](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/becomingDev.html)
 
-![](/images/post/Amazon_product_advertising_api/1*PA_5sxJJZkTAbG5Zq-ht-g.gif)
+![](/images/blog/amazon-product-advertising-api/1*PA_5sxJJZkTAbG5Zq-ht-g.gif)
 
 ### How this could happened?
 
@@ -194,7 +194,7 @@ But better read this sad stories instead:
 [**Investigating CloudTrail Logs**
 *These nightmares are typical in an AWS breach. Would you know how to investigate them?*medium.com](https://medium.com/starting-up-security/investigating-cloudtrail-logs-c2ecdf578911)
 
-![Don’t be this kitten! Delete your root access keys NOW!](/images/post/Amazon_product_advertising_api/1*uUbXynOUwmy_Kc9Weqqmxw.jpg)*Don’t be this kitten! Delete your root access keys NOW!*
+![Don’t be this kitten! Delete your root access keys NOW!](/images/blog/amazon-product-advertising-api/1*uUbXynOUwmy_Kc9Weqqmxw.jpg)*Don’t be this kitten! Delete your root access keys NOW!*
 
 ## To sum it up
 

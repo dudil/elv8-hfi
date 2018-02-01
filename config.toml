@@ -17,7 +17,7 @@ pluralizeListTitles = false
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Elv8 By Dudi Levy"
   # Sets where "View More Posts" links
-  viewMorePostLink     = "/post/"
+  viewMorePostLink     = "/blog/"
 
 
 # Optional Params
@@ -104,7 +104,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "Blog"
-  url = "/post/"
+  url = "/blog/"
   identifier = "fa fa-newspaper-o"
   weight = 3
 
