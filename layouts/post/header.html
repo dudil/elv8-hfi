@@ -1,4 +1,5 @@
 <header>
+    {{ partial "seo_schema" . }}
     <div class="title">
         {{ if $.Scratch.Get "h1" }}
         <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>

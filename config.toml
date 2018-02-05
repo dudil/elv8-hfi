@@ -1,19 +1,21 @@
-baseurl = "https://netlify.com"
+baseurl = "https://elv8.co"
 languageCode = "en-us"
-title = "Elv8 Tech Blog"
+title = "Elv8 Blog"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 5
 disqusShortname = "elv8"
 googleAnalytics = ""
 pluralizeListTitles = false
+enableRobotsTXT = true
+canonifyURLs = true
 
 [blackfriday]
   hrefTargetBlank = true
 
 [params]
   # Sets the meta tag description
-  description          = "My Blog about Technology, Management and Product"
+  description          = "My Thoughts about Technology, Management and Product"
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Elv8 By Dudi Levy"
   # Sets where "View More Posts" links
@@ -70,7 +72,7 @@ pluralizeListTitles = false
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
   header    = "Elv8 Tech Blog"
-  paragraph = "My Blog about Technology, Management and Product"
+  paragraph = "My Thoughts about Technology, Management and Product"
   about     = "My name is Dudi Levy, I am Technology executive leading people, products and technology.</br>Elv8 is my personal blog about this subjects and behind."
 
   # This appears at the top of the sidebar above params.intro.header.
@@ -174,4 +176,4 @@ pluralizeListTitles = false
   orcid            = ""
   researchgate     = ""    
   # Email
-  email            = "dudile@gmail.com"
+  email            = "dudi@elv8.co"
