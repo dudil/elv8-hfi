@@ -111,22 +111,28 @@ canonifyURLs = true
   weight = 3
 
 # [[menu.main]]
-#  name = "External Links"
-#  url = "/external/"
-#  identifier = "fa fa-link"
+#  name = "Websites"
+#  url = "/websites/"
+#  identifier = "fa fa-globe"
 #  weight = 4
 
-[[menu.main]]
-  name = "Tags"
-  url = "/tags/"
-  identifier = "fa fa-tags"
-  weight = 5
+# [[menu.main]]
+#  name = "Reading"
+#  url = "/reading/"
+#  identifier = "fa fa-link"
+#  weight = 5
+
+# [[menu.main]]
+#  name = "Tags"
+#  url = "/tags/"
+#  identifier = "fa fa-tags"
+#  weight = 6
 
 [[menu.main]]
   name = "Subscribe"
   url = "/subscribe/"
   identifier = "fa fa-envelope-o"
-  weight = 6
+  weight = 7
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
