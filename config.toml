@@ -116,11 +116,11 @@ canonifyURLs = true
 #  identifier = "fa fa-globe"
 #  weight = 4
 
-# [[menu.main]]
-#  name = "Reading"
-#  url = "/reading/"
-#  identifier = "fa fa-link"
-#  weight = 5
+[[menu.main]]
+ name = "Reading"
+ url = "/reading/"
+ identifier = "fa fa-link"
+ weight = 5
 
 # [[menu.main]]
 #  name = "Tags"
