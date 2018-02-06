@@ -2858,6 +2858,7 @@ position: relative;
 .share-btn.pinterest	 { background: #BD081C; }
 .share-btn.reddit      { background: #ff5700; }
 .share-btn.email       { background: #444444; }
+.share-btn.whatsapp       { background: #25d366; }
 
   .share-btn.twitter:hover     { background: #4c9ad6; }
   .share-btn.google-plus:hover { background: #c64333; }
@@ -2867,6 +2868,7 @@ position: relative;
     .share-btn.pinterest:hover   { background: #AD0000; }
   .share-btn.reddit:hover      { background: #e54e00; }
   .share-btn.email:hover       { background: #363636; }
+  .share-btn.whatsapp:hover      { background: #1ec75c; }
 
 /* Share Menu */
 

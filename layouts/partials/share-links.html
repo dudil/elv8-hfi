@@ -6,7 +6,7 @@
   <a href="//twitter.com/share?url={{ .Permalink }}&amp;text={{ .Title }}&amp;via={{ .Site.Social.twitter }}" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
-    </a>
+  </a>
 </li>
 {{ end }}
 
@@ -27,7 +27,7 @@
   <a href="//www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
-    </a>
+  </a>
 </li>
 {{ end }}
 
@@ -45,9 +45,9 @@
 {{ if .Site.Params.socialShareLinkedin | default true}}
 <li>
   <a href="//www.linkedin.com/shareArticle?url={{ .Permalink }}&amp;title={{ .Title }}" target="_blank" class="share-btn linkedin">
-      <i class="fa fa-linkedin"></i>
-      <p>LinkedIn</p>
-    </a>
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+  </a>
 </li>
 {{ end }}
 
@@ -67,6 +67,16 @@
   <a href="//www.pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;description={{ .Title }}" target="_blank" class="share-btn pinterest">
     <i class="fa fa-pinterest-p"></i>
     <p>Pinterest</p>
+  </a>
+</li>
+{{ end }}
+
+<!-- WhatsApp -->
+{{ if .Site.Params.socialShareWhatsapp | default true}}
+<li>
+  <a href="whatsapp://send?text={{ .Permalink }}" data-action="share/whatsapp/share" target="_blank" class="share-btn whatsapp">
+    <i class="fa fa-whatsapp"></i>
+    <p>WhatsApp</p>
   </a>
 </li>
 {{ end }}
