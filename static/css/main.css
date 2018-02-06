@@ -130,8 +130,6 @@ body, input, select, textarea {
 
     }
 
-    }
-
     @media screen and (max-width: 980px) {
 
         body, input, select, textarea {
@@ -573,7 +571,7 @@ textarea {
     select:hover,
     textarea:hover {
         -webkit-transition:border-color 0.3s ease-in-out;
-        moz-transition:border-color 0.3s ease-in-out;
+        -moz-transition:border-color 0.3s ease-in-out;
         transition:border-color 0.3s ease-in-out;
         border-color: #2ebaae;
     }
@@ -1937,7 +1935,6 @@ article.post footer .stats {
         opacity: 0.87;
     }
     
-    article.post h2 > a,
     article.post h3 > a {
         text-decoration: underline; 
         color: rgb(10, 67, 177);
