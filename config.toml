@@ -110,11 +110,11 @@ canonifyURLs = true
   identifier = "fa fa-newspaper-o"
   weight = 3
 
-# [[menu.main]]
-#  name = "Websites"
-#  url = "/websites/"
-#  identifier = "fa fa-globe"
-#  weight = 4
+[[menu.main]]
+ name = "Websites"
+ url = "/websites/"
+ identifier = "fa fa-globe"
+ weight = 4
 
 [[menu.main]]
  name = "Reading"
