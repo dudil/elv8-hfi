@@ -15,10 +15,8 @@ weight = 3
 
 ### [www.ynonperek.com](https://www.ynonperek.com)
 
-Ynon is one of the most talented software engineers I had the pleasure to work with.  
-He operates a successful online training site (in Hebrew) named [ToCode](https://tocode.co.il).  
-  
-Ynon blog is a paradise to every developer who respects his profession. You will find there cover for new technologies and concepts, in-depth review of web technologies and security practices.  
+Ynon blog is a great resources for the constant learning developer.  
+You will find in his blog cover for new technologies and concepts, 
+review of web technologies and security practices.  
 But for me, the best part is his in-depth programming languages review and comparison.  
-(Even though for some strange reason he prefers Perl on Python...)
-
+Ynon guides you through the different languages implementation, with insights that gives you better understanding of the underling mechanics of programing languages and platforms.
