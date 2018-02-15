@@ -9,5 +9,7 @@ featuredalt: ""
 tags: ["agile"]
 category: ["Management"]
 type: "post"
+draft: "true"
 ---
+
 <script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src='//embed.playbuzz.com/sdk.js';fjs.parentNode.insertBefore(js,fjs);}(document,'script','playbuzz-sdk'));</script><div class="playbuzz" data-id="5128b730-96d2-42d4-8f6e-89d7c413170d"></div>
