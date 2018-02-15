@@ -1,0 +1,3 @@
+<script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src='//embed.playbuzz.com/sdk.js';fjs.parentNode.insertBefore(js,fjs);}(document,'script','playbuzz-sdk'));</script>
+
+<div class="playbuzz" data-id="{{ .Get "id" }}" {{ with .Get "showInfo"}} data-show-info="{{.}}" {{ end }} {{ with .Get "showShare"}} data-show-share="{{.}}" {{ end }}></div>

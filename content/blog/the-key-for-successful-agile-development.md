@@ -1,6 +1,7 @@
 ---
 title: "The Key for Successful Agile Development"
-description: "Do you feel agile is sometimes... well, not agile? Read through to learn some tricks that will guarantee to help you to boost your productivity!"
+description: "Do you feel Agile is sometimes not exactly Agile?
+Read through to learn the key to your productivity boost!"
 date: 2018-02-15
 image: ""
 featured: "fsc2upvtiybu85plnwch.jpg"
@@ -9,7 +10,7 @@ featuredalt: ""
 tags: ["agile"]
 category: ["Management"]
 type: "post"
-draft: "true"
+draft: "false"
 ---
 
-<script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src='//embed.playbuzz.com/sdk.js';fjs.parentNode.insertBefore(js,fjs);}(document,'script','playbuzz-sdk'));</script><div class="playbuzz" data-id="5128b730-96d2-42d4-8f6e-89d7c413170d"></div>
+{{< playbuzz id="cff9c526-56ea-45e5-9181-751a381235c3" showInfo="false" showShare="false" >}}
